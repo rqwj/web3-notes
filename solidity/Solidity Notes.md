@@ -761,7 +761,7 @@ export default LockModule;
 npx hardhat ignition visualize ./ignition/modules/Lock.ts
 ```
 
-![contract_deploy_report](attachments/Solidity Notes/contract_deploy_report.png)
+![contract_deploy_report](attachments/Solidity-Notes/contract_deploy_report.png)
 
 ## Write your own contract, test and deploy it
 
@@ -1215,7 +1215,7 @@ A Solidity function is combined by
 
 [Reference: RemoteCodeCamp Solidity Quick Start](https://solidity-rcc.vercel.app/docs/solidity-basic/function)
 
-![image-20240804094727014](attachments/Solidity Notes/solidity-function-components.png)
+![image-20240804094727014](attachments/Solidity-Notes/solidity-function-components.png)
 
 #### function name
 
@@ -1246,19 +1246,19 @@ Functions can use all four of the above modifiers:
 
 **Public** visibility between three types of contracts
 
-![image-20240804124142353](attachments/Solidity Notes/visibility-public.png)
+![image-20240804124142353](attachments/Solidity-Notes/visibility-public.png)
 
 **External** visibility between three types of contracts
 
-![image-20240804124645358](attachments/Solidity Notes/visibility-external.png)
+![image-20240804124645358](attachments/Solidity-Notes/visibility-external.png)
 
 **Internal** visibility between three types of contracts 
 
-![image-20240804124812781](attachments/Solidity Notes/visibility-internal.png)
+![image-20240804124812781](attachments/Solidity-Notes/visibility-internal.png)
 
 **Private** visibility between three types of contracts 
 
-![image-20240804124858251](attachments/Solidity Notes/visibility-private.png)
+![image-20240804124858251](attachments/Solidity-Notes/visibility-private.png)
 
 #### state mutability
 
@@ -1450,7 +1450,7 @@ receive() external payable {
 - The position of variable accessibility modifiers
 
 **`wrong code`**
-![access modifier location](attachments/Solidity Notes/Appendix-001.png)
+![access modifier location](attachments/Solidity-Notes/Appendix-001.png)
 **`correct code`**
 
 ```solidity
@@ -1474,7 +1474,7 @@ ShippingStatus private status;
         }
     }
 ```
-![pure fucntion require view](attachments/Solidity Notes/Appendix-002.png)
+![pure fucntion require view](attachments/Solidity-Notes/Appendix-002.png)
 
 **`correct code`**
 
@@ -1494,12 +1494,12 @@ ShippingStatus private status;
 
 **`error code`**
 
-![memory数组默认声明类型和字面量推导不兼容1](attachments/Solidity Notes/Appendix-003.png)
+![memory数组默认声明类型和字面量推导不兼容1](attachments/Solidity-Notes/Appendix-003.png)
 
-![memory数组默认声明类型和字面量推导不兼容2](attachments/Solidity Notes/Appendix-004.png)
+![memory数组默认声明类型和字面量推导不兼容2](attachments/Solidity-Notes/Appendix-004.png)
 
-![memory数组默认声明类型和字面量推导不兼容3](attachments/Solidity Notes/Appendix-005.png)
+![memory数组默认声明类型和字面量推导不兼容3](attachments/Solidity-Notes/Appendix-005.png)
 
 **`correct code`**
 
-![memory数组默认声明类型和字面量推导不兼容4](attachments/Solidity Notes/Appendix-006.png)
+![memory数组默认声明类型和字面量推导不兼容4](attachments/Solidity-Notes/Appendix-006.png)
